@@ -31,11 +31,11 @@ def main():
             print("You entered a negative number, please try again.")
     except Exception:
         # Statement when an exception is encountered
-        print("Please enter a valid integer.")
+        print("{} is not an integer.".format(user_number_string))
     finally:
         # Finally statement to thank the user fro playing
         print()
-        print("Thanks for playing")
+        print("Thanks for playing!")
 
 
 if __name__ == "__main__":
